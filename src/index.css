@@ -1,0 +1,274 @@
+@import "./fonts.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.footer-text {
+  font-family: DM Sans;
+  font-size: 25.12px;
+  text-align: center;
+}
+
+.connect-text {
+  font-family: Inter;
+  font-size: 33.24px;
+  font-weight: 600;
+  line-height: 40.23px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.connect-text-desc {
+  font-family: Inter;
+  font-size: 17.73px;
+  font-weight: 400;
+  line-height: 21.46px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.get-in-touch {
+  font-family: Inter;
+  font-size: 134.6px;
+  font-weight: 800;
+  line-height: 111.34px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.get-in-touch-desc {
+  font-family: Inter;
+  font-size: 17.73px;
+  font-weight: 400;
+  line-height: 21.46px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #444444;
+}
+
+.contact-form {
+  width: 1219px;
+  height: 667.77px;
+  top: 6868.11px;
+  left: 361px;
+  gap: 0px;
+  border-radius: 34px 0px 0px 0px;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    252.76deg,
+    #ffffff 2.39%,
+    rgba(255, 255, 255, 0.548085) 21.93%,
+    rgba(255, 255, 255, 0) 52.03%,
+    rgba(255, 255, 255, 0.438476) 86.92%,
+    #ffffff 98.16%
+  );
+}
+
+.profile-container {
+  width: 392px;
+  height: 89px;
+  top: 5737px;
+  left: 430.28px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.profile-name {
+  font-family: Petrov Sans;
+  font-size: 61.56px;
+  font-weight: 700;
+  line-height: 88.89px;
+  color: #ffae00;
+  text-align: left;
+}
+
+.name-watermark {
+  font-family: Petrov Sans;
+  font-size: 168.1px;
+  font-weight: 900;
+  line-height: 160.98px;
+  text-align: left;
+  width: 738px;
+  height: 322px;
+  top: 6206px;
+  left: 418px;
+  gap: 0px;
+  opacity: 0.3px;
+}
+
+.image-container {
+  width: 911px;
+  height: 1050px;
+  top: 5523px;
+  left: 756px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.why-choose-us-title {
+  font-family: Petrov Sans;
+  font-size: 86.66px;
+  font-weight: 700;
+  line-height: 104.41px;
+  text-align: center;
+}
+
+.why-choose-us-desc {
+  font-family: DM Sans;
+  font-size: 27.98px;
+  font-weight: 500;
+  line-height: 33.71px;
+  text-align: center;
+}
+
+.services-title {
+  font-family: Petrov Sans;
+  font-size: 86.66px;
+  font-weight: 700;
+  line-height: 104.41px;
+  text-align: center;
+}
+
+.services-desc-three {
+  font-family: DM Sans;
+  color: white;
+  font-size: 27.98px;
+  font-weight: 400;
+  line-height: 33.71px;
+  text-align: center;
+  padding: 22px 0px;
+  max-width: 1058px;
+  margin: 0px auto;
+}
+
+.services-desc-two {
+  font-family: DM Sans;
+  color: white;
+  font-size: 27.98px;
+  font-weight: 400;
+  line-height: 33.71px;
+  text-align: center;
+  padding: 22px 0px;
+  max-width: 1058px;
+  margin: 0px auto 80px auto;
+}
+
+.card {
+  width: 355.82px;
+  height: 355.82px;
+  top: 3793px;
+  left: 547px;
+  gap: 0px;
+  border-radius: 33.81px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.card-title {
+  font-family: Petrov Sans;
+  font-size: 37.8px;
+  font-weight: 700;
+  line-height: 40.04px;
+  text-align: center;
+}
+
+.card-desc {
+  font-family: DM Sans;
+  font-size: 18.27px;
+  font-weight: 400;
+  line-height: 22.02px;
+  text-align: center;
+}
+
+.repeating-strip {
+  font-family: Petrov Sans;
+  font-size: 95.56px;
+  font-weight: 700;
+  line-height: 98.8px;
+  text-align: left;
+}
+
+.nav-item {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.92px;
+  text-align: left;
+}
+
+.hero-desc {
+  font-family: DM Sans;
+  font-size: 27.42px;
+  font-weight: 500;
+  line-height: 33.03px;
+  text-align: left;
+}
+
+.pill-text {
+  font-family: Petrov Sans;
+  font-size: 24.28px;
+  font-weight: 700;
+  line-height: 25.73px;
+  text-align: center;
+}
+
+.profile-text {
+  font-family: Petrov Sans;
+  font-size: 168.1px;
+  font-weight: 900;
+  line-height: 160.98px;
+  text-align: left;
+  color: #5d2b5d;
+  mix-blend-mode: color-dodge;
+}
+
+/* Add these styles to your global CSS file if you want animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+  mix-blend-mode: luminosity;
+}
+
+.footer-links {
+  font-family: DM Sans;
+  font-size: 21.98px;
+  font-weight: 500;
+  line-height: 26.48px;
+  text-align: left;
+}
+
+/* Add after your existing styles */
+.pill-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.hero-desc {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  opacity: 0.9;
+}
