@@ -36,7 +36,7 @@ const ServicesTwo = () => {
           Designed To Engage, Grow, And Convert Audiences Across All Platforms.
           Let Us Help You Connect Authentically And Drive Impactful Results.
         </p>
-        <div className="flex items-center justify-center gap-[46.18px]">
+        <div className="flex flex-col md:flex-row h-auto md:h-[695px] pb-[72px] md:pb-[144px] items-center bg-purple-primary justify-center md:gap-[46.18px]">
           <ServiceCard
             title="Political Campaigns"
             description="In The Fast-Paced World Of Politics, Every Connection Counts. We Help You Create Campaigns That Resonate With Constituents And Drive Voter Engagement."
