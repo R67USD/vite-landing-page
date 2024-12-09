@@ -1,9 +1,9 @@
 const ContactForm = () => {
   return (
-    <section className="bg-maroon-darker h-[1099px]">
-      <div className="container mx-auto px-4">
-        <div className="max-w-6xl pt-[300px] contact-form mx-auto">
-          <div className="bg-maroon-dark max-sm:w-[350px] backdrop-blur-sm rounded-3xl p-12">
+    <section className="relative bg-maroon-darker">
+      <div className="container pt-[140px] pb-[80px] mx-auto px-4">
+        <div className="max-sm:max-w-6xl contact-form mx-auto">
+          <div className="bg-maroon-dark backdrop-blur-sm rounded-3xl p-12">
             <div className="flex flex-col md:grid md:grid-cols-2 gap-8">
               {/* Left Form Section - Second on mobile */}
               <div className="space-y-6 order-2 md:order-1">
@@ -55,8 +55,8 @@ const ContactForm = () => {
               </div>
 
               {/* Right Display Section - First on mobile */}
-              <div className="flex flex-col gap-y-3 bg-yellow-gradient from-yellow-start to-yellow-end rounded-2xl p-12 justify-center order-1 md:order-2">
-                <h2 className="get-in-touch text-purple-primary">
+              <div className="flex flex-col gap-y-3 bg-yellow-gradient from-yellow-start to-yellow-end md:rounded-xl rounded-2xl p-12 justify-center order-1 md:order-2">
+                <h2 className="lg:text-left font-[800] lg:text-[134.6px] sm:text-[82.6px] lg:leading-[111.34px] sm:leading-[68.6px] text-purple-primary">
                   Get in
                   <br />
                   touch

@@ -1,33 +1,30 @@
 const RepeatingTextStrip = () => {
-  // Creating an array of repeated text to ensure it fills the width
-  const repeatedText = Array(20).fill("Purple Haze Media |"); // Increased count for wider screens
+  const repeatedText = Array(20).fill("Purple Haze Media |");
 
   return (
-    <div className="w-full relative h-[99px] bg-white overflow-hidden border-y border-gray-100">
-      <div className="absolute inset-0 flex items-center">
-        <div className="flex whitespace-nowrap animate-scroll">
-          {/* First set of text */}
-          <div className="flex">
-            {repeatedText.map((text, index) => (
-              <span
-                key={`first-${index}`}
-                className="repeating-strip text-[#F5F5F5] text-[4vh] font-bold px-2"
-              >
-                {text}
-              </span>
-            ))}
-          </div>
-          {/* Duplicate set for seamless loop */}
-          <div className="flex">
-            {repeatedText.map((text, index) => (
-              <span
-                key={`second-${index}`}
-                className="repeating-strip text-[#F5F5F5] text-[4vh] font-bold px-2"
-              >
-                {text}
-              </span>
-            ))}
-          </div>
+    <div className="relative bg-white overflow-hidden border-y border-gray-100">
+      <div className="flex whitespace-nowrap animate-scroll">
+        {/* First set of text */}
+        <div className="flex">
+          {repeatedText.map((text, index) => (
+            <span
+              key={`first-${index}`}
+              className="max-sm:leading-[62px] max-sm:max-h-[75px] max-sm:text-[35px] text-[95.56px] font-petrov leading-[98.8px] font-bold text-left text-[#F5F5F5] px-2"
+            >
+              {text}
+            </span>
+          ))}
+        </div>
+        {/* Duplicate set for seamless loop */}
+        <div className="flex">
+          {repeatedText.map((text, index) => (
+            <span
+              key={`second-${index}`}
+              className="max-sm:leading-[62px] max-sm:max-h-[75px] max-sm:text-[35px] text-[95.56px] font-petrov leading-[98.8px] font-bold text-left text-[#F5F5F5] px-2"
+            >
+              {text}
+            </span>
+          ))}
         </div>
       </div>
     </div>

@@ -1,11 +1,5 @@
 const ServiceCard = ({ title, description, image, name }: any) => (
-  <div
-    style={{
-      width: "355.82px",
-      height: "355.82px",
-    }}
-    className="bg-purple-card rounded-[33.81px] p-8 relative"
-  >
+  <div className="bg-purple-card rounded-[33.81px] p-8 relative">
     <div className="w-[96.6px] h-[96.6px] bg-orange-500 rounded-full absolute -top-12 right-8">
       <img
         src={image}
@@ -25,8 +19,8 @@ const ServiceCard = ({ title, description, image, name }: any) => (
 );
 const ServicesTwo = () => {
   return (
-    <section className="bg-purple-darker py-16 h-[1099px]">
-      <div className="container mx-auto pt-[153px]">
+    <section className="bg-purple-darker py-16">
+      <div className="container mx-auto pt-[153px] pb-[212px]">
         <h2 className="services-title">
           <span className="text-white">Our </span>
           <span className="text-orange-500">Services</span>
@@ -36,7 +30,7 @@ const ServicesTwo = () => {
           Designed To Engage, Grow, And Convert Audiences Across All Platforms.
           Let Us Help You Connect Authentically And Drive Impactful Results.
         </p>
-        <div className="flex flex-col md:flex-row h-auto md:h-[695px] pb-[72px] md:pb-[144px] items-center bg-purple-primary justify-center md:gap-[46.18px]">
+        <div className="max-w-[1100px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-[46.18px]">
           <ServiceCard
             title="Political Campaigns"
             description="In The Fast-Paced World Of Politics, Every Connection Counts. We Help You Create Campaigns That Resonate With Constituents And Drive Voter Engagement."

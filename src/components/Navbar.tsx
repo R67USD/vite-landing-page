@@ -2,11 +2,11 @@ import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <nav className="pt-[75px] z-50 bg-purple-primary py-4">
+    <nav className="py-20 z-50 bg-purple-primary">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center">
+        <div className="flex max-sm:justify-center justify-between items-center">
           <Logo />
-          <div className="flex items-center space-x-8">
+          <div className="max-md:hidden flex items-center space-x-8">
             <a
               href="#"
               className="nav-item text-white hover:text-orange-primary"

@@ -1,11 +1,11 @@
 const HeroSection = () => {
   return (
-    <section className="bg-purple-primary h-[720px]">
-      <div className="container mx-auto px-4 relative pt-20">
+    <section className="bg-purple-primary">
+      <div className="container mx-auto px-4 relative pt-4">
         <div className="flex flex-col md:flex-row items-start justify-between mt-[40px]">
           {/* Left Content */}
           <div className="flex-1 max-w-xl mt-8">
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <span className="max-sm:items-center max-sm:text-[62px] text-5xl lg:text-6xl font-bold leading-tight mb-6">
               <span className="text-white">Welcome To</span>
               <br />
               <span className="text-orange-500">Purple Haze Media,</span>
@@ -13,7 +13,7 @@ const HeroSection = () => {
               <span className="text-white">Where Creativity</span>
               <br />
               <span className="text-white">Meets Strategy.</span>
-            </h1>
+            </span>
             <p className="text-gray-300 text-lg leading-relaxed">
               Media Agency Established To
               <br />

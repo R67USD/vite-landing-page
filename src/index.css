@@ -52,12 +52,48 @@ body {
   text-align: center;
   color: #444444;
 }
+@media (min-width: 640px) {
+  /* sm breakpoint */
+  .get-in-touch {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 768px) {
+  /* md breakpoint */
+  .get-in-touch {
+    font-size: 96px;
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* lg breakpoint */
+  .get-in-touch {
+    font-size: 134.6px;
+    line-height: 111.34px;
+  }
+}
+
+@media (min-width: 640px) {
+  /* sm breakpoint */
+  .get-in-touch-desc {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* md breakpoint */
+  .get-in-touch-desc {
+    font-size: 17.73px;
+    line-height: 21.46px;
+  }
+}
 
 .contact-form {
-  width: 1219px;
-  height: 667.77px;
-  top: 6868.11px;
-  left: 361px;
+  max-width: 1219px;
+  max-height: 667.77px;
   gap: 0px;
   border-radius: 34px 0px 0px 0px;
   border: 1px solid;
@@ -72,8 +108,8 @@ body {
 }
 
 .profile-container {
-  width: 392px;
-  height: 89px;
+  max-width: 392px;
+  max-height: 89px;
   top: 5737px;
   left: 430.28px;
   gap: 0px;
@@ -95,8 +131,8 @@ body {
   font-weight: 900;
   line-height: 160.98px;
   text-align: left;
-  width: 738px;
-  height: 322px;
+  max-width: 738px;
+  max-height: 322px;
   top: 6206px;
   left: 418px;
   gap: 0px;
@@ -104,8 +140,8 @@ body {
 }
 
 .image-container {
-  width: 911px;
-  height: 1050px;
+  max-width: 911px;
+  max-height: 1050px;
   top: 5523px;
   left: 756px;
   gap: 0px;
@@ -161,8 +197,8 @@ body {
 }
 
 .card {
-  width: 355.82px;
-  height: 355.82px;
+  max-width: 355.82px;
+  max-height: 355.82px;
   top: 3793px;
   left: 547px;
   gap: 0px;

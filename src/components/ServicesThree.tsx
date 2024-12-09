@@ -1,11 +1,5 @@
 const ServiceCard = ({ title, description, image, name }: any) => (
-  <div
-    style={{
-      width: "355.82px",
-      height: "355.82px",
-    }}
-    className="bg-purple-card rounded-[33.81px] p-8 relative"
-  >
+  <div className="bg-purple-card rounded-[33.81px] p-8 relative">
     <div className="w-[96.6px] h-[96.6px] bg-orange-500 rounded-full absolute -top-12 right-8">
       <img
         src={image}
@@ -38,7 +32,7 @@ const ServicesThree = () => {
           Let Us Help You Connect Authentically And Drive Impactful Results.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-[115px]">
+        <div className="max-w-[760px] mt-14 mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 md:gap-[46.18px]">
           <ServiceCard
             title="PR And Publicity"
             description="Build A Strong Public Image With Our Comprehensive PR Services. We Manage Your Media Relations And Foster Positive Relationships With The Media."

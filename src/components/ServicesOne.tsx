@@ -1,6 +1,6 @@
 const ServiceCard = ({ title, description, image, name }: any) => (
-  <div className="w-[90%] md:w-[355.82px] h-auto md:h-[355.82px] bg-purple-card rounded-[33.81px] p-6 md:p-8 relative mb-16 md:mb-0 mx-auto">
-    <div className="w-[60px] md:w-[96.6px] h-[60px] md:h-[96.6px] bg-orange-500 rounded-full absolute -top-8 md:-top-12 right-8">
+  <div className="bg-purple-card rounded-[33.81px] p-8 relative">
+    <div className="w-[96.6px] h-[96.6px] bg-orange-500 rounded-full absolute -top-12 right-8">
       <img
         src={image}
         alt={name}
@@ -13,31 +13,32 @@ const ServiceCard = ({ title, description, image, name }: any) => (
         }}
       />
     </div>
-    <h3 className="text-white card-title mt-[40px] md:mt-[63px] mb-4">
-      {title}
-    </h3>
+    <h3 className="text-white card-title mt-[63px] mb-4">{title}</h3>
     <p className="text-gray-300 card-desc">{description}</p>
   </div>
 );
 
 const ServicesOne = () => {
   return (
-    <section className="bg-orange-primary min-h-screen md:h-[1099px]">
-      <div className="mx-auto pt-[80px] md:pt-[153px]">
-        <div className="h-auto md:h-[360px] px-4 md:px-0">
-          <h2 className="services-title text-center">
-            <span className="text-purple-950">Our </span>
-            <span className="text-purple-950">Services</span>
-          </h2>
-          <p className="text-center text-purple-950 max-w-3xl mx-auto mb-8 md:mb-16 px-4">
-            Boost Your Brand's Presence With Targeted Social Media Strategies
-            Designed To Engage, Grow, And Convert Audiences Across All
-            Platforms. Let Us Help You Connect Authentically And Drive Impactful
-            Results.
-          </p>
+    <>
+      <section className="bg-orange-primary">
+        <div className="mx-auto pt-[80px] md:pt-[153px]">
+          <div className="h-auto md:h-[360px] px-4 md:px-0">
+            <h2 className="services-title text-center">
+              <span className="text-purple-950">Our </span>
+              <span className="text-purple-950">Services</span>
+            </h2>
+            <p className="text-center text-purple-950 max-w-3xl mx-auto mb-8 md:mb-16 px-4">
+              Boost Your Brand's Presence With Targeted Social Media Strategies
+              Designed To Engage, Grow, And Convert Audiences Across All
+              Platforms. Let Us Help You Connect Authentically And Drive
+              Impactful Results.
+            </p>
+          </div>
         </div>
-
-        <div className="flex flex-col md:flex-row h-auto md:h-[695px] pb-[72px] md:pb-[144px] items-center bg-purple-primary justify-center md:gap-[46.18px]">
+      </section>
+      <section className="mt-[194px] mb-[144px]">
+        <div className="max-w-[1100px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-[46.18px] bg-purple-primary">
           <ServiceCard
             title="Brand Identity"
             description="Your Brand Is More Than Just A Logo - It's Your Story. We Help You Position Your Brand With Visual Brand Identities That Resonate With Your Audience And Tell Your Story Authentically."
@@ -57,8 +58,8 @@ const ServicesOne = () => {
             name="influencer"
           />
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

@@ -1,10 +1,10 @@
 const ProfileSection = () => {
   return (
     <section className="bg-purple-primary relative overflow-hidden">
-      <div className="container mx-auto px-4 py-20 relative">
+      <div className="container mx-auto px-4 pt-32 relative">
         {/* Background Watermark Text */}
         <div
-          className="absolute inset-0 flex items-center opacity-30 text-purple-card"
+          className="absolute inset-0 bottom-24 flex items-center opacity-30 text-purple-card"
           style={{
             fontSize: "168px",
             fontWeight: 900,
@@ -21,15 +21,12 @@ const ProfileSection = () => {
         </div>
 
         {/* Rest of the code remains the same */}
-        <div className="flex justify-between items-center relative">
+        <div className="flex flex-col lg:flex-row justify-between items-center relative">
           <div className="relative" style={{ zIndex: 2 }}>
             <img
               src="/images/yogesh-pawar.png"
               alt="Yogesh Pawar"
               className="w-[600px] h-auto object-cover object-top"
-              style={{
-                clipPath: "inset(0 0 28% 0)",
-              }}
             />
           </div>
 

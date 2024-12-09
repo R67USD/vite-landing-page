@@ -1,14 +1,13 @@
-// src/components/Footer.jsx
 import Logo from "./Logo";
 
 const Footer = () => {
   return (
-    <footer className="bg-purple-primary pt-[235px]">
-      <div className="mx-auto px-[252px] gap-x-[250px]  flex gap-12 mb-12">
+    <footer className="bg-purple-primary pt-16 md:pt-[235px]">
+      <div className="mx-auto px-4 md:px-8 lg:px-[252px] flex flex-col md:flex-row gap-8 md:gap-12 mb-12">
         {/* Logo and Email Section */}
-        <div>
+        <div className="w-full md:w-auto">
           <Logo />
-          <div className="mt-[90px]">
+          <div className="mt-8 md:mt-[90px]">
             <input
               type="email"
               placeholder="Enter Your Email Address"
@@ -18,11 +17,11 @@ const Footer = () => {
         </div>
 
         {/* Services Links */}
-        <div>
-          <h3 className="text-white text-4xl font-semibold mb-4">
+        <div className="w-full">
+          <h3 className="text-white text-3xl md:text-4xl font-semibold mb-4">
             Our Services
           </h3>
-          <div className="grid grid-cols-2 text-md gap-x-24 gap-y-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 text-sm md:text-md gap-x-8 md:gap-x-24 gap-y-2">
             <a href="#" className="text-gray-300 footer-links hover:text-white">
               Brand Identity
             </a>
@@ -48,13 +47,17 @@ const Footer = () => {
               Brand Films And Advertising
             </a>
           </div>
-          <div className="md:col-span-4 mt-[16px]">
-            <div className="flex  gap-x-[240px]">
+
+          {/* About and Why Choose Us Section */}
+          <div className="mt-8 md:mt-[16px]">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-x-[120px] md:gap-x-[240px]">
               <div>
-                <h3 className="text-white text-3xl font-medium mb-4">About</h3>
+                <h3 className="text-white text-2xl md:text-3xl font-medium mb-4">
+                  About
+                </h3>
               </div>
               <div>
-                <h3 className="text-white text-3xl font-medium mb-4">
+                <h3 className="text-white text-2xl md:text-3xl font-medium mb-4">
                   Why Choose Us?
                 </h3>
               </div>
@@ -62,8 +65,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      {/* Copyright Section */}
       <div className="text-center py-4 border-t bg-purple-dark border-gray-800">
-        <p className="text-gray-400 text-center footer-text">
+        <p className="text-gray-400 text-sm md:text-base text-center footer-text px-4">
           Copyright © Purple Haze Media. All Rights Reserved.
         </p>
       </div>
