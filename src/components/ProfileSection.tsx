@@ -3,41 +3,30 @@ const ProfileSection = () => {
     <section className="bg-purple-primary relative overflow-hidden">
       <div className="container mx-auto px-4 pt-32 relative">
         {/* Background Watermark Text */}
-        <div
-          className="absolute inset-0 bottom-24 flex items-center opacity-30 text-purple-card"
-          style={{
-            fontSize: "168px",
-            fontWeight: 900,
-            lineHeight: "160px",
-            fontFamily: "Petrov Sans",
-            zIndex: 1,
-            textShadow: "0 0 1px #5D2B5D", // Makes text slightly thicker
-            WebkitTextStroke: "2px #5D2B5D", // Makes text thicker for webkit browsers
-          }}
-        >
+        <div className="absolute bottom-24 max-sm:bottom-0 max-sm:right-0 opacity-30 text-purple-card petrov-sans text-[168px] max-sm:text-[100px] font-black max-sm:leading-[120px] leading-[160px] [-webkit-text-stroke:2px_#5D2B5D] z-[1]">
           YOGESH
           <br />
           PAWAR
         </div>
 
-        {/* Rest of the code remains the same */}
-        <div className="flex flex-col lg:flex-row justify-between items-center relative">
-          <div className="relative" style={{ zIndex: 2 }}>
+        {/* Content */}
+        <div className="px-[20px] flex flex-col lg:flex-row justify-between items-center relative z-[2]">
+          <div className="relative max-sm:order-2">
             <img
               src="/images/yogesh-pawar.png"
               alt="Yogesh Pawar"
-              className="w-[600px] h-auto object-cover object-top"
+              className=" h-auto object-cover object-top"
             />
           </div>
 
-          <div className="max-w-[45%] z-20">
-            <h2 className="text-orange-primary text-6xl font-bold mb-4">
+          <div className="lg:max-w-[45%]  z-20 max-sm:order-1 max-sm:flex max-sm:flex-col max-sm:items-center">
+            <h2 className="text-orange-primary max-sm:text-5xl text-6xl font-bold mb-4">
               Yogesh Pawar
             </h2>
             <h3 className="text-white text-2xl mb-8">
               Founder - Purple Haze Media
             </h3>
-            <p className="text-gray-300 text-lg leading-relaxed">
+            <p className="text-gray-300 text-lg">
               With A Passion For Marketing And A Strategic Approach To Business,
               I Specialize In Creating Impactful Solutions That Drive Growth And
               Elevate Brands. My Experience Spans Market Research, Innovative
