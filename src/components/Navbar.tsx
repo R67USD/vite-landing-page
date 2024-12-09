@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="py-20 max-sm:pt-20 max-sm:!pb-10 bg-purple-primary">
       <div className="container mx-auto px-4">
         <div className="flex max-sm:justify-center justify-between items-center">
-          <Logo />
+          <Logo className="h-[107px] w-[306px] max-sm:h-[178px]" />
           <div className="max-md:hidden flex items-center space-x-8">
             <a
               href="#"

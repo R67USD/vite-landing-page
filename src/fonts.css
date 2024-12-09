@@ -1,21 +1,21 @@
 /* src/styles/fonts.css */
 @font-face {
   font-family: "Petrov Sans";
-  src: url("../public/fonts/PetrovSans-Regular.ttf") format("truetype");
+  src: url("/fonts/PetrovSans-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Petrov Sans";
-  src: url("../public/fonts/PetrovSans-Bold.ttf") format("truetype");
+  src: url("/fonts/PetrovSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Petrov Sans";
-  src: url("../public/fonts/PetrovSans-Light.ttf") format("truetype");
+  src: url("/fonts/PetrovSans-Light.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }

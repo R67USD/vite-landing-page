@@ -2,18 +2,20 @@ const ContactForm = () => {
   return (
     <section className="relative bg-maroon-darker">
       <div className="container pt-[140px] pb-[80px] mx-auto px-4">
-        <div className="max-sm:max-w-6xl contact-form mx-auto">
-          <div className="bg-maroon-dark backdrop-blur-sm rounded-3xl p-12">
-            <div className="flex flex-col md:grid md:grid-cols-2 gap-8">
+        <div className="max-w-[1219px] mx-auto rounded-tl-[34px] relative p-[1px] ">
+          <div className="bg-maroon-dark backdrop-blur-sm rounded-3xl max-sm:p-8 p-12">
+            <div className="flex flex-col md:grid md:grid-cols-2 max-sm:gap-4 gap-8">
               {/* Left Form Section - Second on mobile */}
               <div className="space-y-6 order-2 md:order-1">
                 <div className="flex flex-col gap-y-4">
-                  <h2 className="connect-text text-white">Let's connect</h2>
-                  <p className="text-gray-300 connect-text-desc">
+                  <h2 className=" text-[33.24px] font-semibold leading-[40.23px] tracking-[-0.02em] text-left text-white">
+                    Let's connect
+                  </h2>
+                  <p className="text-sm sm:text-[17.73px] font-normal leading-[21.46px] tracking-[-0.01em] text-left text-gray-300">
                     Ready to elevate your brand? Contact us today to
-                    <br />
+                    <br className="max-sm:hidden" />
                     discuss how we can help you achieve your goals
-                    <br />
+                    <br className="max-sm:hidden" />
                     through innovative strategies and creative solutions.
                   </p>
                 </div>
@@ -55,13 +57,13 @@ const ContactForm = () => {
               </div>
 
               {/* Right Display Section - First on mobile */}
-              <div className="flex flex-col gap-y-3 bg-yellow-gradient from-yellow-start to-yellow-end md:rounded-xl rounded-2xl p-12 justify-center order-1 md:order-2">
-                <h2 className="lg:text-left font-[800] lg:text-[134.6px] sm:text-[82.6px] lg:leading-[111.34px] sm:leading-[68.6px] text-purple-primary">
+              <div className="flex flex-col gap-y-3 bg-yellow-gradient from-yellow-start to-yellow-end md:rounded-xl rounded-2xl max-sm:p-6 p-12 justify-center order-1 md:order-2">
+                <h2 className="lg:text-left font-bold lg:text-[134.6px] max-sm:text-[52.6px] leading-[111.34px] max-sm:leading-[48.6px] text-purple-primary">
                   Get in
                   <br />
                   touch
                 </h2>
-                <p className="get-in-touch-desc">
+                <p className=" text-[17.73px] font-normal leading-[21.46px] tracking-[-0.01em] text-left">
                   Ready to elevate your brand? Contact us today to
                   <br />
                   discuss how we can help you achieve your goals
