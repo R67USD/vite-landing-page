@@ -24,11 +24,11 @@ const ServicesOne = () => {
       <section className="bg-orange-primary">
         <div className="mx-auto pt-[80px] md:pt-[153px]">
           <div className="h-auto md:h-[360px] px-4 md:px-0">
-            <h2 className="services-title text-center">
+            <h2 className="text-[86.66px] font-bold leading-[104.41px] petrov-sans max-sm:text-[55px] text-center">
               <span className="text-purple-950">Our </span>
               <span className="text-purple-950">Services</span>
             </h2>
-            <p className="text-center text-purple-950 max-w-3xl mx-auto mb-8 md:mb-16 px-4">
+            <p className="text-center text-purple-950 max-w-3xl mx-auto mb-8 petrov-sans md:mb-16 px-4">
               Boost Your Brand's Presence With Targeted Social Media Strategies
               Designed To Engage, Grow, And Convert Audiences Across All
               Platforms. Let Us Help You Connect Authentically And Drive

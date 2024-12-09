@@ -117,7 +117,7 @@ body {
 }
 
 .profile-name {
-  font-family: Petrov Sans;
+  font-family: 'Petrov Sans';
   font-size: 61.56px;
   font-weight: 700;
   line-height: 88.89px;
@@ -126,7 +126,7 @@ body {
 }
 
 .name-watermark {
-  font-family: Petrov Sans;
+  font-family: 'Petrov Sans';
   font-size: 168.1px;
   font-weight: 900;
   line-height: 160.98px;
@@ -149,7 +149,7 @@ body {
 }
 
 .why-choose-us-title {
-  font-family: Petrov Sans;
+  font-family: 'Petrov Sans';
   font-size: 86.66px;
   font-weight: 700;
   line-height: 104.41px;
@@ -164,12 +164,8 @@ body {
   text-align: center;
 }
 
-.services-title {
-  font-family: Petrov Sans;
-  font-size: 86.66px;
-  font-weight: 700;
-  line-height: 104.41px;
-  text-align: center;
+.petrov-sans {
+  font-family: 'Petrov Sans';
 }
 
 .services-desc-three {
@@ -208,7 +204,7 @@ body {
 }
 
 .card-title {
-  font-family: Petrov Sans;
+  font-family: 'Petrov Sans';
   font-size: 37.8px;
   font-weight: 700;
   line-height: 40.04px;
@@ -224,7 +220,7 @@ body {
 }
 
 .repeating-strip {
-  font-family: Petrov Sans;
+  font-family: 'Petrov Sans';
   font-size: 95.56px;
   font-weight: 700;
   line-height: 98.8px;
@@ -248,7 +244,7 @@ body {
 }
 
 .pill-text {
-  font-family: Petrov Sans;
+  font-family: 'Petrov Sans';
   font-size: 24.28px;
   font-weight: 700;
   line-height: 25.73px;
@@ -256,7 +252,7 @@ body {
 }
 
 .profile-text {
-  font-family: Petrov Sans;
+  font-family: 'Petrov Sans';
   font-size: 168.1px;
   font-weight: 900;
   line-height: 160.98px;

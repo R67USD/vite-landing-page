@@ -2,7 +2,7 @@ import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <nav className="py-20 z-50 bg-purple-primary">
+    <nav className="py-20 max-sm:pt-20 max-sm:!pb-10 bg-purple-primary">
       <div className="container mx-auto px-4">
         <div className="flex max-sm:justify-center justify-between items-center">
           <Logo />

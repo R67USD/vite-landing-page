@@ -4,17 +4,29 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 relative pt-4">
         <div className="flex flex-col md:flex-row items-start justify-between mt-[40px]">
           {/* Left Content */}
-          <div className="flex-1 max-w-xl mt-8">
-            <span className="max-sm:items-center max-sm:text-[62px] text-5xl lg:text-6xl font-bold leading-tight mb-6">
+          <div className="flex-1 max-w-xl mt-8 max-sm:w-full">
+            {/* Desktop View */}
+            <span className="max-sm:hidden text-5xl lg:text-6xl font-bold leading-tight mb-6">
               <span className="text-white">Welcome To</span>
               <br />
               <span className="text-orange-500">Purple Haze Media,</span>
               <br />
-              <span className="text-white">Where Creativity</span>
+              <span className="text-orange-500">Where Creativity</span>
               <br />
               <span className="text-white">Meets Strategy.</span>
             </span>
-            <p className="text-gray-300 text-lg leading-relaxed">
+
+            {/* Mobile View */}
+            <div className="sm:hidden w-full flex flex-col items-center text-center">
+              <span className="text-[32px] font-bold leading-tight mb-6 flex flex-col">
+                <span className="text-white">Welcome To</span>
+                <span className="text-orange-500">Purple Haze Media,</span>
+                <span className="text-orange-500">Where Creativity</span>
+                <span className="text-white">Meets Strategy.</span>
+              </span>
+            </div>
+
+            <p className="text-gray-300 max-sm:text-center text-lg leading-relaxed">
               Media Agency Established To
               <br />
               Help Brands Build And Develop
@@ -26,7 +38,7 @@ const HeroSection = () => {
           </div>
 
           {/* Right Image with floating elements */}
-          <div className="flex-1 relative h-[600px]">
+          <div className="flex-1 relative h-[600px] max-sm:hidden">
             <img
               src="/images/guy-with-laptop.png"
               alt="Person with laptop"
@@ -46,7 +58,6 @@ const HeroSection = () => {
             <div className="absolute top-[126px] right-[-74px] pill-text bg-white px-6 py-2 rounded-full text-purple-950">
               Influencer Marketing
             </div>
-
             <div className="absolute bottom-[280px] right-[-12px] pill-text bg-orange-500 px-6 py-2 rounded-full text-white">
               Political Campaign
             </div>
@@ -54,6 +65,13 @@ const HeroSection = () => {
               PR and Publicity
             </div>
           </div>
+
+          {/* Mobile Image */}
+          <img
+            src="/images/guy-with-laptop-update.png"
+            alt="Person with laptop updated"
+            className="sm:hidden max-w-[95%] h-auto mx-auto"
+          />
         </div>
       </div>
     </section>
