@@ -1,16 +1,10 @@
 const ServiceCard = ({ title, description, image, name }: any) => (
   <div className="bg-purple-card rounded-[33.81px] p-8 relative">
-    <div className="w-[96.6px] h-[96.6px] bg-orange-500 rounded-full absolute -top-12 right-8">
+    <div className="max-sm:w-[62.2px] w-[96.6px] max-sm:h-[62.2px] h-[96.6px] bg-orange-500 rounded-full absolute max-sm:-top-[2rem] -top-12 right-8">
       <img
         src={image}
         alt={name}
-        className="w-full h-full"
-        style={{
-          width: "60px",
-          height: "60px",
-          marginTop: "17px",
-          marginLeft: "17px",
-        }}
+        className="max-sm:w-[40px] w-[60px] max-sm:h-[40px] h-[60px] mt-[17px] ml-[17px] max-sm:mt-[12px] max-sm:ml-[12px]"
       />
     </div>
     <h3 className="text-white card-title mt-[63px] mb-4">{title}</h3>
@@ -22,7 +16,7 @@ const ServicesOne = () => {
   return (
     <>
       <section className="bg-orange-primary">
-        <div className="mx-auto pt-[80px] md:pt-[153px]">
+        <div className="mx-auto pt-[80px] max-sm:pb-[60px]">
           <div className="h-auto md:h-[360px] px-4 md:px-0">
             <h2 className="text-[86.66px] font-bold leading-[104.41px] petrov-sans max-sm:text-[55px] text-center">
               <span className="text-purple-950">Our </span>
@@ -38,7 +32,7 @@ const ServicesOne = () => {
         </div>
       </section>
       <section className="mt-[194px] mb-[144px]">
-        <div className="max-w-[1100px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-[46.18px] bg-purple-primary">
+        <div className="max-w-[1100px] max-sm:max-w-[320px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[46.18px] bg-purple-primary">
           <ServiceCard
             title="Brand Identity"
             description="Your Brand Is More Than Just A Logo - It's Your Story. We Help You Position Your Brand With Visual Brand Identities That Resonate With Your Audience And Tell Your Story Authentically."
