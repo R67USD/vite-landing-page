@@ -2,7 +2,7 @@ const WhyChooseUs = () => {
   return (
     <section className="bg-orange-primary max-sm:py-[120px] py-[320px] relative overflow-hidden">
       {/* Large Question Mark Background */}
-      <div className="absolute top-[65%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full">
+      <div className="absolute max-sm:top-[65%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-sm:w-full max-sm:h-full">
         <img
           src="/images/question-mark.png"
           alt="Why Choose Us?"

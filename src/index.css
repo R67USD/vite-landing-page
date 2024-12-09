@@ -285,14 +285,6 @@ body {
   mix-blend-mode: luminosity;
 }
 
-.footer-links {
-  font-family: "DM Sans";
-  font-size: 21.98px;
-  font-weight: 500;
-  line-height: 26.48px;
-  text-align: left;
-}
-
 /* Add after your existing styles */
 .pill-text {
   font-family: ""DM Sans"", sans-serif;
