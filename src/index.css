@@ -7,11 +7,11 @@
 @tailwind utilities;
 
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: ""DM Sans"", sans-serif;
 }
 
 .footer-text {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-size: 25.12px;
   text-align: center;
 }
@@ -157,7 +157,7 @@ body {
 }
 
 .why-choose-us-desc {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-size: 27.98px;
   font-weight: 500;
   line-height: 33.71px;
@@ -167,9 +167,12 @@ body {
 .petrov-sans {
   font-family: 'Petrov Sans';
 }
+.dm-sans {
+  font-family: "DM Sans";
+}
 
 .services-desc-three {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   color: white;
   font-size: 27.98px;
   font-weight: 400;
@@ -181,7 +184,7 @@ body {
 }
 
 .services-desc-two {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   color: white;
   font-size: 27.98px;
   font-weight: 400;
@@ -212,7 +215,7 @@ body {
 }
 
 .card-desc {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-size: 18.27px;
   font-weight: 400;
   line-height: 22.02px;
@@ -228,7 +231,7 @@ body {
 }
 
 .nav-item {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-size: 24px;
   font-weight: 500;
   line-height: 28.92px;
@@ -236,7 +239,7 @@ body {
 }
 
 .hero-desc {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-size: 27.42px;
   font-weight: 500;
   line-height: 33.03px;
@@ -283,7 +286,7 @@ body {
 }
 
 .footer-links {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-size: 21.98px;
   font-weight: 500;
   line-height: 26.48px;
@@ -292,14 +295,14 @@ body {
 
 /* Add after your existing styles */
 .pill-text {
-  font-family: "DM Sans", sans-serif;
+  font-family: ""DM Sans"", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   white-space: nowrap;
 }
 
 .hero-desc {
-  font-family: "DM Sans", sans-serif;
+  font-family: ""DM Sans"", sans-serif;
   font-size: 1.125rem;
   line-height: 1.75;
   opacity: 0.9;
