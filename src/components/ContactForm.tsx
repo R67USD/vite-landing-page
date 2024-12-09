@@ -3,10 +3,10 @@ const ContactForm = () => {
     <section className="bg-maroon-darker h-[1099px]">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl pt-[300px] contact-form mx-auto">
-          <div className="bg-maroon-dark backdrop-blur-sm rounded-3xl p-12">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* Left Form Section */}
-              <div className="space-y-6">
+          <div className="bg-maroon-dark max-sm:w-[350px] backdrop-blur-sm rounded-3xl p-12">
+            <div className="flex flex-col md:grid md:grid-cols-2 gap-8">
+              {/* Left Form Section - Second on mobile */}
+              <div className="space-y-6 order-2 md:order-1">
                 <div className="flex flex-col gap-y-4">
                   <h2 className="connect-text text-white">Let's connect</h2>
                   <p className="text-gray-300 connect-text-desc">
@@ -54,8 +54,8 @@ const ContactForm = () => {
                 </button>
               </div>
 
-              {/* Right Display Section */}
-              <div className="flex flex-col gap-y-3 bg-yellow-gradient from-yellow-start to-yellow-end rounded-2xl p-12 justify-center">
+              {/* Right Display Section - First on mobile */}
+              <div className="flex flex-col gap-y-3 bg-yellow-gradient from-yellow-start to-yellow-end rounded-2xl p-12 justify-center order-1 md:order-2">
                 <h2 className="get-in-touch text-purple-primary">
                   Get in
                   <br />
