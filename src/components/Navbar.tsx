@@ -8,25 +8,25 @@ const Navbar = () => {
           <Logo className="h-[107px] w-[306px] max-sm:h-[178px]" />
           <div className="max-md:hidden flex items-center space-x-8">
             <a
-              href="#"
+              href="#home"
               className="nav-item text-white hover:text-orange-primary"
             >
               Home
             </a>
             <a
-              href="#"
+              href="#services"
               className="nav-item text-white hover:text-orange-primary"
             >
               Our Services
             </a>
             <a
-              href="#"
+              href="#about"
               className="nav-item text-white hover:text-orange-primary"
             >
               About
             </a>
             <a
-              href="#"
+              href="#whychooseus"
               className="nav-item text-white hover:text-orange-primary"
             >
               Why Choose Us?

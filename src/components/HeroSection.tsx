@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <section className="bg-purple-primary">
+    <section id="home" className="bg-purple-primary">
       <div className="container mx-auto px-4 relative pt-4">
         <div className="flex flex-col md:flex-row items-start justify-between mt-[40px]">
           {/* Left Content */}

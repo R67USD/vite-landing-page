@@ -1,6 +1,6 @@
 const ContactForm = () => {
   return (
-    <section className="relative bg-maroon-darker">
+    <section id={"contact"} className="relative bg-maroon-darker">
       <div className="container pt-[140px] pb-[80px] mx-auto px-4">
         <div className="max-w-[1219px] mx-auto rounded-tl-[34px] relative p-[1px] ">
           <div className="bg-maroon-dark backdrop-blur-sm rounded-3xl max-sm:p-8 p-12">

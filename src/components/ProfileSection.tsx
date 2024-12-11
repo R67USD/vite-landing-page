@@ -1,6 +1,6 @@
 const ProfileSection = () => {
   return (
-    <section className="bg-purple-primary relative overflow-hidden">
+    <section id="about" className="bg-purple-primary relative overflow-hidden">
       <div className="container mx-auto px-4 pt-32 relative">
         {/* Background Watermark Text */}
         <div className="absolute bottom-24 max-sm:bottom-0 max-sm:right-0 opacity-30 text-purple-card petrov-sans text-[168px] max-sm:text-[100px] font-black max-sm:leading-[120px] leading-[160px] [-webkit-text-stroke:2px_#5D2B5D] z-[1]">

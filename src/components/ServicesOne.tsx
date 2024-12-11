@@ -15,7 +15,7 @@ const ServiceCard = ({ title, description, image, name }: any) => (
 const ServicesOne = () => {
   return (
     <>
-      <section className="bg-orange-primary">
+      <section id="services" className="bg-orange-primary">
         <div className="mx-auto pt-[80px] max-sm:pb-[60px]">
           <div className="h-auto md:h-[360px] px-4 md:px-0">
             <h2 className="text-[86.66px] font-bold leading-[104.41px] petrov-sans max-sm:text-[55px] text-center">
