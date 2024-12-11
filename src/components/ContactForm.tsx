@@ -58,7 +58,7 @@ const ContactForm = () => {
 
               {/* Right Display Section - First on mobile */}
               <div className="flex flex-col gap-y-3 bg-yellow-gradient from-yellow-start to-yellow-end md:rounded-xl rounded-2xl max-sm:p-6 p-12 justify-center order-1 md:order-2">
-                <h2 className="lg:text-left font-bold lg:text-[134.6px] max-sm:text-[52.6px] leading-[111.34px] max-sm:leading-[48.6px] text-purple-primary">
+                <h2 className="text-left font-bold text-[134.6px] max-sm:text-[52.6px] leading-[111.34px] max-sm:leading-[48.6px] text-purple-primary">
                   Get in
                   <br />
                   touch

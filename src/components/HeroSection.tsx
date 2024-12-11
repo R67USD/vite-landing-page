@@ -55,7 +55,7 @@ const HeroSection = () => {
             <div className="absolute top-[200px] right-[420px] pill-text bg-white text-purple-950 px-6 py-2 rounded-full">
               Brand Identity
             </div>
-            <div className="absolute top-[126px] right-[-74px] pill-text bg-white px-6 py-2 rounded-full text-purple-950">
+            <div className="absolute top-[126px] md:right-[-22px] lg:right-[14px] right-[-74px] pill-text bg-white px-6 py-2 rounded-full text-purple-950">
               Influencer Marketing
             </div>
             <div className="absolute bottom-[280px] right-[-12px] pill-text bg-orange-500 px-6 py-2 rounded-full text-white">
