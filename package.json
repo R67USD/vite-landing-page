@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && cd server && node app.js",
+    "build": "tsc -b && vite build && cd server && npm i && node app.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
