@@ -31,9 +31,12 @@ const Navbar = () => {
             >
               Why Choose Us?
             </a>
-            <button className="bg-orange-primary text-white px-6 py-2 rounded hover:bg-orange-400 transition-colors">
+            <a
+              href="#contact"
+              className="bg-orange-primary text-white px-6 py-2 rounded hover:bg-orange-400 transition-colors"
+            >
               Get In Touch
-            </button>
+            </a>
           </div>
         </div>
       </div>
