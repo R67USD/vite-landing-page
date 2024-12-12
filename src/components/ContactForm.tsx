@@ -31,13 +31,16 @@ const ContactForm = () => {
     onSubmit: async (values, { resetForm }) => {
       try {
         setLoading(true);
-        const response = await fetch("http://localhost:3000/api/email", {
-          body: JSON.stringify(values),
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }).then((res) => res.json());
+        const response = await fetch(
+          "https://vite-landing-page-server.vercel.app/api/email",
+          {
+            body: JSON.stringify(values),
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          }
+        ).then((res) => res.json());
         setLoading(false);
 
         if (response?.data?.mailId) {
