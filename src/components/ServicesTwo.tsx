@@ -13,8 +13,8 @@ const ServiceCard = ({ title, description, image, name }: any) => (
 );
 const ServicesTwo = () => {
   return (
-    <section className="bg-purple-darker py-16">
-      <div className="container mx-auto pt-[153px] pb-[212px]">
+    <section className="bg-purple-darker">
+      <div className="container mx-auto max-sm:py-[100px] pt-[150px] pb-[150px]">
         <h2 className="text-[86.66px] font-bold leading-[104.41px] petrov-sans max-sm:text-[55px] text-center">
           <span className="text-white">Our </span>
           <span className="text-orange-500">Services</span>
